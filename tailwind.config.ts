@@ -1,4 +1,7 @@
 import type { Config } from "tailwindcss";
+const { fontFamily } = require('tailwindcss/defaultTheme')
+
+
 
 const config: Config = {
   content: [
@@ -8,10 +11,26 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors:{
+        primary:"#F8A11C"
+      },
+      fontFamily: {
+        Bricolage: ["Bricolage Grotesque", ...fontFamily.sans],
+        Inter: ['Inter', ...fontFamily.sans],
+        Space: ['Space Grotesk', ...fontFamily.sans],
+      },
+      boxShadow:{
+        secondary_shadow:"2px 2px 0px 0px #FCC90D"
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        black_hero_bg:"url(/images/hero_bg.png)",
+        technology_bg:"url(/images/technology_bg.png)",
+        primary_text_clip_bg:"linear-gradient(90deg, #F8A11C 0.42%, #FCC90D 99.7%)",
+        hero_circle:"url(/images/hero_circle.png)",
+        map_bg:"url(/images/map_bg.png)",
+        token_header_bg:"linear-gradient(90deg, rgba(255, 255, 255, 0.10) 1.44%, rgba(255, 255, 255, 0.05) 100%)",
+        navbar_bg:"linear-gradient(90deg, #191D22 1.44%, rgba(25, 29, 34, 0.52) 100%)",
+        wall_bg:"linear-gradient(90deg, rgba(255, 255, 255, 0.10) 1.44%, rgba(255, 255, 255, 0.05) 100%)"
       },
     },
   },
