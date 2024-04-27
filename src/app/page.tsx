@@ -4,7 +4,7 @@ import Footer from "@/components/sections/Footer";
 import RoadMapSection from "@/components/sections/RoadMapSection";
 import TechnologySection from "@/components/sections/TechnologySection";
 import WallSection from "@/components/sections/WallSection";
-import TokenSection from "@/components/sections/tokenSection";
+import TokenSection from "@/components/sections/TokenSection";
 
 export default function Home() {
   return (
