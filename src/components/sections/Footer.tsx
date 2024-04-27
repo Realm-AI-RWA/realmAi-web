@@ -37,7 +37,7 @@ function Footer() {
           ))}
         </div>
       </div>
-      <div className="py-[2.75rem] flex justify-between items-center border-t-[1px] border-t-[#2B3035] px-[1rem]  md:px-[13rem]">
+      <div className="py-[2.75rem] flex justify-between items-center border-t-[1px] border-t-[#2B3035] px-[1rem]  md:px-[13rem] gap-[2rem]">
         <p className="font-Space text-[0.875rem] text-white">©2024 RealmAI </p>
 
         <div className="flex items-center gap-[0.6rem]  md:gap-[3.5rem]">
