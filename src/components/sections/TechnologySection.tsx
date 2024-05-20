@@ -15,7 +15,7 @@ function TechnologySection() {
     {
       title: "Automated Tokenization Process",
       description:
-        "RealmAI automates the asset tokenization process through Ethereum smart contracts. Leveraging AI-driven smart contracts, the platform enables seamless fractionalization of assets and issuance of asset-backed tokens (security tokens). This automation streamlines the tokenization journey while ensuring compliance and transparency.",
+        "RealmAI automates the asset tokenization process through Solana smart contracts. Leveraging AI-driven smart contracts, the platform enables seamless fractionalization of assets and issuance of asset-backed tokens (security tokens). This automation streamlines the tokenization journey while ensuring compliance and transparency.",
     },
     {
       title: "Risk Assessment and Compliance:",
@@ -31,7 +31,7 @@ function TechnologySection() {
     {
       title: "Decentralized Governance and Transparency",
       description:
-        "Operating on Ethereum's decentralized network, RealmAI ensures transparent governance and community participation in platform governance. Token holders have voting rights to influence platform upgrades, asset tokenization proposals, and governance policies, fostering a collaborative ecosystem.",
+        "Operating on Solana's decentralized network, RealmAI ensures transparent governance and community participation in platform governance. Token holders have voting rights to influence platform upgrades, asset tokenization proposals, and governance policies, fostering a collaborative ecosystem.",
     },
     {
       title: "Real-Time Asset Performance Monitoring",

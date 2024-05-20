@@ -32,7 +32,7 @@ function TokenSection() {
           RealmAI aims to revolutionize the financial industry by democratizing
           access to real-world assets, enhancing liquidity, and fostering
           financial inclusion through AI-driven asset tokenization on the
-          Ethereum blockchain. By harnessing the power oftechnology and
+          Solana blockchain. By harnessing the power oftechnology and
           innovation, RealmAI seeks to create a more equitable, transparent, and
           sustainable financial ecosystem for investors worldwide
         </p>

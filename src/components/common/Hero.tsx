@@ -11,7 +11,7 @@ function Hero() {
           AI-Driven Real
         </h3>
         <h3 className="primary_text">Assets Tokenization</h3>
-        <h3>on Ethereum.</h3>
+        <h3>on Solana.</h3>
         </div>
         <p className="text-white text-base font-Inter">
           Integrating artificial intelligence (AI) to tokenize real-world
