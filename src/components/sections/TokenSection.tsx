@@ -58,7 +58,7 @@ function TokenSection() {
               <p className="text-[#8149FE] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
                 25% Platform Development
               </p>
-              <p className="text-[#85B86F] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
+              <p className="text-[#85B86F] font-Inter text-[1.125rem] tracing-[-0.01125rem] text-right ">
                 9% Marketing and Promotions
               </p>
             </div>
@@ -76,7 +76,7 @@ function TokenSection() {
               <p className="text-[#2EC1EB] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
                 9% Marketing and Promotion
               </p>
-              <p className="text-[#21BBBB] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
+              <p className="text-[#21BBBB] font-Inter text-[1.125rem] tracing-[-0.01125rem] text-right ">
                 20% Realm Reserve
               </p>
             </div>
