@@ -38,14 +38,14 @@ function Footer() {
         </div>
       </div>
       <div className="py-[2.75rem] flex justify-between items-center border-t-[1px] border-t-[#2B3035] px-[1rem]  md:px-[13rem] gap-[2rem]">
-        <p className="font-Space text-[0.875rem] text-white">©2024 RealmAI </p>
+        <p className="font-Inter text-[0.875rem] text-white">©2024 RealmAI </p>
 
         <div className="flex items-center gap-[0.6rem]  md:gap-[3.5rem]">
-          <Link href="" className="font-Space text-[0.875rem] text-white">
+          {/* <Link href="" className="font-Space text-[0.875rem] text-white">
             Privacy Policy
-          </Link>
-          <Link href="" className="font-Space text-[0.875rem] text-white">
-            Terms of service
+          </Link> */}
+          <Link href="" className="font-Inter text-[0.875rem] text-white">
+          Made with 🩷 on Solana
           </Link>
         </div>
       </div>

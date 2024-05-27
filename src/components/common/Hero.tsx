@@ -1,8 +1,10 @@
+"use client"
 import Image from "next/image";
 import Button from "../ui/button";
-import Navbar from "./Navbar";
+import { useRouter } from "next/navigation";
 
 function Hero() {
+  const router = useRouter();
   return (
     <div className="bg-black_hero_bg pl-[1rem] md:pl-[13rem] pb-[3rem] flex  items-center flex-col md:flex-row">
       <div className="z-10 w-full pt-[9rem] md:pt-0 md:w-[100.625rem] flex flex-col gap-[1.5rem] px-[1rem] md:px-0">
@@ -20,7 +22,7 @@ function Hero() {
           and investment accessibility.
         </p>
         <div className="w-full md:w-[10rem]">
-          <Button title="Learn more" />
+          <Button onClick={()=> router.push("/#technology")} title="Learn more" />
         </div>
       </div>
 

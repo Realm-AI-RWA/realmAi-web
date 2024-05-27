@@ -6,29 +6,16 @@ function TokenSection() {
   const options = [
     {
       option: "Initial Liquidity",
-      value: "30%",
+      value: "TBA",
     },
     {
-      option: "Platform Development",
-      value: "25%",
+      option: "Network",
+      value: "SOL",
     },
     {
-      option: "Marketing and Promotions",
-      value: "9%",
+      option: "Holders",
+      value: "N/A",
     },
-    {
-      option: "Team Incentive",
-      value: "6%",
-    },
-    {
-      option: "Realm Reserve",
-      value: "20%",
-    },
-    {
-      option: "CEX Listings",
-      value: "20%",
-    },
-
     {
       option: "Total/Max Supply",
       value: "50,000,000",
@@ -38,60 +25,59 @@ function TokenSection() {
     <div className="flex flex-col md:flex-row bg-[#020301] px-[1rem] md:px-[13rem] md:gap-2 py-[5rem] items-center gap-[2rem]">
       <div className="flex flex-col flex-1 gap-[2rem]">
         <SecondaryBtn id="token" title="Token" />
-        <h3 className="font-Bricolage text-[2.75rem] font-bold text-white">
-          $RAi Token Info
+        <h3  className="font-Bricolage text-[2.75rem] font-bold text-white">
+        $RAi Token Info
         </h3>
-        <p className="text-white font-Inter text-[1.125rem] tracking-[-0.01125rem] w-full md:w-4/5">
+        <p   className="text-white font-Inter text-[1.125rem] tracking-[-0.01125rem] w-full md:w-4/5">
           RealmAI aims to revolutionize the financial industry by democratizing
           access to real-world assets, enhancing liquidity, and fostering
-          financial inclusion through AI-driven asset tokenization on the Solana
-          blockchain. By harnessing the power oftechnology and innovation,
-          RealmAI seeks to create a more equitable, transparent, and sustainable
-          financial ecosystem for investors worldwide
+          financial inclusion through AI-driven asset tokenization on the
+          Solana blockchain. By harnessing the power oftechnology and
+          innovation, RealmAI seeks to create a more equitable, transparent, and
+          sustainable financial ecosystem for investors worldwide
         </p>
         {options.map((option, index) => (
           <div key={index} className="flex items-center flex-wrap">
             <p className="text-primary font-Inter text-[1.125rem] tracking-[-0.01125rem]">
-              {option.option}:
+             {option.option}:
             </p>
             <p className="text-white font-Inter text-[1.125rem] tracking-[-0.01125rem] pl-[0.1rem]">
-              {" "}
-              {option.value}
+            {" "} {option.value}
             </p>
           </div>
         ))}
       </div>
 
       <div className="w-full md:w-[26.6875rem] rounded-[0.75rem] bg-token_header_bg h-fit">
-        <div className="flex flex-col gap-[1.5rem] py-[1.5rem] px-[1.5rem]">
+        <div className="flex flex-col gap-[1.5rem] py-[1.5rem] px-[0.5rem]">
           <h4 className="text-white text-center font-Bricolage text-[1.5rem] font-bold">
             Token distribution
           </h4>
           <div className="flex flex-col gap-[1.5rem]">
             <div className="flex justify-between items-center">
               <p className="text-[#8149FE] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
-                65% Public sale
+                25% Platform Development
               </p>
               <p className="text-[#85B86F] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
-                7% Partnership
+                9% Marketing and Promotions
               </p>
             </div>
 
             <div className="flex justify-between items-center">
               <p className="text-[#C3832B] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
-                10% Liquidity
+                30% Initial Liquidity
               </p>
               <p className="text-[#C3B663] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
-                5% CEX
+                10% CEX Listing
               </p>
             </div>
 
             <div className="flex justify-between items-center">
               <p className="text-[#2EC1EB] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
-                9% Marketing
+                9% Marketing and Promotion
               </p>
               <p className="text-[#21BBBB] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
-                4% Team
+                20% Realm Reserve
               </p>
             </div>
           </div>
