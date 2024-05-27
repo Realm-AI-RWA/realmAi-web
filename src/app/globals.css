@@ -29,6 +29,10 @@
     scroll-behavior: smooth !important;
 }
 
+body{
+  overflow-x: hidden !important;
+}
+
 
 @layer components {
   .primary_text {
@@ -54,13 +58,13 @@
 }
 @keyframes rotate-animation {
   0% {
-    transform: rotateX(0deg);
+    transform: rotate(0deg);
   }
   100% {
-    transform: rotateX(90deg);
+    transform: rotate(90deg);
   }
 }
 
 .rotate {
-  animation: rotate-animation 50s linear infinite;
+  animation: rotate-animation 20s linear infinite;
 }
