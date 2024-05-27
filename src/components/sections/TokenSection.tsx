@@ -17,8 +17,8 @@ function TokenSection() {
       value: "N/A",
     },
     {
-      option: "Total/Max Supply:",
-      value: "200,000,000",
+      option: "Total/Max Supply",
+      value: "500,000,000",
     },
   ];
   return (
