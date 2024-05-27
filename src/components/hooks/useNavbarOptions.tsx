@@ -10,7 +10,7 @@ const useNavbarOptions = ()=>{
           link: "/#token",
         },
         {
-          title: "TECHNLOGY",
+          title: "TECHNOLOGY",
           link: "/#technology",
         },
         {

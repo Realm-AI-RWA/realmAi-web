@@ -15,9 +15,9 @@ const config: Config = {
         primary:"#F8A11C"
       },
       fontFamily: {
-        Bricolage: ["Bricolage Grotesque", ...fontFamily.sans],
-        Inter: ['Inter', ...fontFamily.sans],
-        Space: ['Space Grotesk', ...fontFamily.sans],
+        Bricolage: ["Briston",],
+        Inter: ['Inter',],
+        Space: ['Space Grotesk',],
       },
       boxShadow:{
         secondary_shadow:"2px 2px 0px 0px #FCC90D"

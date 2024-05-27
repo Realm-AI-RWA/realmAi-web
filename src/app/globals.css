@@ -2,9 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:wght@100..900&display=swap');
+
+
+
+
+
+@font-face {
+  font-family: "Briston";
+  src: url("/fonts/Briston.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter.ttf") format("truetype");
+  font-style: normal;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 
 *{
@@ -36,4 +51,16 @@
 .primary_text{
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+}
+@keyframes rotate-animation {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(90deg);
+  }
+}
+
+.animate-rotate {
+  animation: rotate-animation 70s linear infinite;
 }

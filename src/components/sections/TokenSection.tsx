@@ -6,19 +6,19 @@ function TokenSection() {
   const options = [
     {
       option: "Address",
-      value: "0xUaA8A7D1fB4cDe81C59C25b95b",
+      value: "TBA",
     },
     {
       option: "Network",
-      value: "ETH",
+      value: "SOL",
     },
     {
       option: "Holders",
-      value: "1800+",
+      value: "N/A",
     },
     {
       option: "Total/Max Supply:",
-      value: "100,000,000",
+      value: "200,000,000",
     },
   ];
   return (

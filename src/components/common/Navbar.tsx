@@ -15,11 +15,11 @@ function Navbar() {
   const socials = [
     {
       image: "x.png",
-      link: "",
+      link: "https://x.com/realmchain",
     },
     {
       image: "telegram.png",
-      link: "",
+      link: "t.me/realmsol",
     },
   ];
   return (
@@ -40,7 +40,7 @@ function Navbar() {
 
         <div className="flex gap-[2rem] items-center">
           {socials.map((social, index) => (
-            <Link href={social.link} key={`social_link_${index}`}>
+            <Link target="__blank" href={social.link} key={`social_link_${index}`}>
               <Image
                 src={`/images/socials/${social.image}`}
                 alt="social"
