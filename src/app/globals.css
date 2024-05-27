@@ -61,6 +61,6 @@
   }
 }
 
-.animate-rotate {
+.rotate {
   animation: rotate-animation 50s linear infinite;
 }
