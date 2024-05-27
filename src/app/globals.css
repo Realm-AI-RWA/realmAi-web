@@ -61,10 +61,10 @@ body{
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(90deg);
+    transform: rotate(360deg);
   }
 }
 
 .rotate {
-  animation: rotate-animation 20s  linear infinite;
+  animation: rotate-animation 30s  linear infinite;
 }
