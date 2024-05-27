@@ -56,28 +56,28 @@ function TokenSection() {
           <div className="flex flex-col gap-[1.5rem]">
             <div className="flex justify-between items-center">
               <p className="text-[#8149FE] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
-                25% Platform Development
+              30%  Initial Liquidity
               </p>
               <p className="text-[#85B86F] font-Inter text-[1.125rem] tracing-[-0.01125rem] text-right ">
-                9% Marketing and Promotions
+              25% Platform Development
               </p>
             </div>
 
             <div className="flex justify-between items-center">
               <p className="text-[#C3832B] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
-                30% Initial Liquidity
+              30% Initial Liquidity
               </p>
               <p className="text-[#C3B663] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
-                10% CEX Listing
+              10% CEX Listing
               </p>
             </div>
 
             <div className="flex justify-between items-center">
               <p className="text-[#2EC1EB] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
-                9% Marketing and Promotion
+              6% Team Incentive
               </p>
               <p className="text-[#21BBBB] font-Inter text-[1.125rem] tracing-[-0.01125rem] text-right ">
-                20% Realm Reserve
+              20% Realm Reserve
               </p>
             </div>
           </div>
