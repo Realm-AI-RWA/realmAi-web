@@ -26,11 +26,11 @@ function Hero() {
         </div>
       </div>
 
-      <div className="w-full -mt-[8rem]  rotate ">
+      <div className="w-full -mt-[8rem]  rotate !max-w-full ">
         <Image
           src="/images/hero_circle.png"
           layout="fill"
-          className="image"
+          className="image !max-w-full "
           alt="hero"
           title="hero"
         />
