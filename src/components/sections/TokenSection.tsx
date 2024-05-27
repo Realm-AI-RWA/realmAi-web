@@ -49,7 +49,7 @@ function TokenSection() {
       </div>
 
       <div className="w-full md:w-[26.6875rem] rounded-[0.75rem] bg-token_header_bg h-fit">
-        <div className="flex flex-col gap-[1.5rem] py-[1.5rem] px-[0.5rem]">
+        <div className="flex flex-col gap-[1.5rem] py-[1.5rem] px-[1.5rem]">
           <h4 className="text-white text-center font-Bricolage text-[1.5rem] font-bold">
             Token distribution
           </h4>
