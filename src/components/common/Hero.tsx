@@ -26,11 +26,22 @@ function Hero() {
         </div>
       </div>
 
-      <div className="w-full -mt-[8rem]  rotate !max-w-full ">
+      <div className="w-full -mt-[8rem] block md:hidden  animate-pulse ">
         <Image
           src="/images/hero_circle.png"
           layout="fill"
-          className="image !max-w-full "
+          className="image "
+          alt="hero"
+          title="hero"
+        />
+      </div>
+
+
+      <div className="w-full -mt-[8rem] hidden md:block  rotateImage">
+        <Image
+          src="/images/hero_circle.png"
+          layout="fill"
+          className="image "
           alt="hero"
           title="hero"
         />

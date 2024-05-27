@@ -65,6 +65,6 @@ body{
   }
 }
 
-.rotate {
+.rotateImage {
   animation: rotate-animation 30s  linear infinite;
 }
