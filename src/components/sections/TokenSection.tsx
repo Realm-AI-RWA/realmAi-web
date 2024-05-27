@@ -5,17 +5,30 @@ import Image from "next/image";
 function TokenSection() {
   const options = [
     {
-      option: "Address",
-      value: "TBA",
+      option: "Initial Liquidity",
+      value: "30%",
     },
     {
-      option: "Network",
-      value: "SOL",
+      option: "Platform Development",
+      value: "25%",
     },
     {
-      option: "Holders",
-      value: "N/A",
+      option: "Marketing and Promotions",
+      value: "9%",
     },
+    {
+      option: "Team Incentive",
+      value: "6%",
+    },
+    {
+      option: "Realm Reserve",
+      value: "20%",
+    },
+    {
+      option: "CEX Listings",
+      value: "20%",
+    },
+    
     {
       option: "Total/Max Supply",
       value: "50,000,000",
@@ -26,7 +39,7 @@ function TokenSection() {
       <div className="flex flex-col flex-1 gap-[2rem]">
         <SecondaryBtn id="token" title="Token" />
         <h3  className="font-Bricolage text-[2.75rem] font-bold text-white">
-          REMAI Token Info
+        $RAi Token Info
         </h3>
         <p   className="text-white font-Inter text-[1.125rem] tracking-[-0.01125rem] w-full md:w-4/5">
           RealmAI aims to revolutionize the financial industry by democratizing
