@@ -28,7 +28,7 @@ function TokenSection() {
       option: "CEX Listings",
       value: "20%",
     },
-    
+
     {
       option: "Total/Max Supply",
       value: "50,000,000",
@@ -38,24 +38,25 @@ function TokenSection() {
     <div className="flex flex-col md:flex-row bg-[#020301] px-[1rem] md:px-[13rem] md:gap-2 py-[5rem] items-center gap-[2rem]">
       <div className="flex flex-col flex-1 gap-[2rem]">
         <SecondaryBtn id="token" title="Token" />
-        <h3  className="font-Bricolage text-[2.75rem] font-bold text-white">
-        $RAi Token Info
+        <h3 className="font-Bricolage text-[2.75rem] font-bold text-white">
+          $RAi Token Info
         </h3>
-        <p   className="text-white font-Inter text-[1.125rem] tracking-[-0.01125rem] w-full md:w-4/5">
+        <p className="text-white font-Inter text-[1.125rem] tracking-[-0.01125rem] w-full md:w-4/5">
           RealmAI aims to revolutionize the financial industry by democratizing
           access to real-world assets, enhancing liquidity, and fostering
-          financial inclusion through AI-driven asset tokenization on the
-          Solana blockchain. By harnessing the power oftechnology and
-          innovation, RealmAI seeks to create a more equitable, transparent, and
-          sustainable financial ecosystem for investors worldwide
+          financial inclusion through AI-driven asset tokenization on the Solana
+          blockchain. By harnessing the power oftechnology and innovation,
+          RealmAI seeks to create a more equitable, transparent, and sustainable
+          financial ecosystem for investors worldwide
         </p>
         {options.map((option, index) => (
           <div key={index} className="flex items-center flex-wrap">
             <p className="text-primary font-Inter text-[1.125rem] tracking-[-0.01125rem]">
-             {option.option}:
+              {option.option}:
             </p>
             <p className="text-white font-Inter text-[1.125rem] tracking-[-0.01125rem] pl-[0.1rem]">
-            {" "} {option.value}
+              {" "}
+              {option.value}
             </p>
           </div>
         ))}
