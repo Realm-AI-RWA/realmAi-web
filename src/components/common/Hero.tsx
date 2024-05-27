@@ -24,7 +24,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className="w-full -mt-[8rem] animate-rotate ">
+      <div className="w-full -mt-[8rem] animate-pulse ">
         <Image
           src="/images/hero_circle.png"
           layout="fill"
