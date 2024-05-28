@@ -64,7 +64,7 @@ function TokenSection() {
             </div>
 
             <div className="flex justify-between items-center">
-              <p className="text-[#C3832B] font-Inter text-[1.125rem] tracing-[-0.01125rem] w-3/5">
+              <p className="text-[#C3832B] font-Inter text-[1.125rem] tracing-[-0.01125rem] w-full md:w-3/5">
               9% Marketing & Promotions
               </p>
               <p className="text-[#C3B663] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
