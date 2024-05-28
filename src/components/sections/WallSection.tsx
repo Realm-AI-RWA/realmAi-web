@@ -13,7 +13,7 @@ function WallSection() {
           <p className="text-white font-Inter text-base w-2/3">
             Learn more about RealmAI project plans, team, market and fit.
           </p>
-          <div className="w-[10rem]">
+          <div className="w-[15rem]">
             <Button title="Coming soon" />
           </div>
         </div>
