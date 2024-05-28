@@ -14,7 +14,7 @@ function WallSection() {
             Learn more about RealmAI project plans, team, market and fit.
           </p>
           <div className="w-[10rem]">
-            <Button title="Learn more" />
+            <Button title="Coming soon" />
           </div>
         </div>
 
