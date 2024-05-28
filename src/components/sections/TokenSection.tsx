@@ -5,7 +5,7 @@ import Image from "next/image";
 function TokenSection() {
   const options = [
     {
-      option: "Initial Liquidity",
+      option: "Address",
       value: "TBA",
     },
     {
