@@ -65,7 +65,7 @@ function TokenSection() {
 
             <div className="flex justify-between items-center">
               <p className="text-[#C3832B] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
-              30% Initial Liquidity
+              9% Marketing & Promotions
               </p>
               <p className="text-[#C3B663] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
               10% CEX Listing
