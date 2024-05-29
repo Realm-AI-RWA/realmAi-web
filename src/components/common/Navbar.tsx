@@ -19,7 +19,7 @@ function Navbar() {
     },
     {
       image: "telegram.png",
-      link: "t.me/realmsol",
+      link: "t.me/realmaiann",
     },
   ];
   return (
