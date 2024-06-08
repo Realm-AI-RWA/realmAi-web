@@ -46,7 +46,7 @@ function TokenSection() {
            {
             option.link
             ?
-            <Link href={option.link} className="text-white underline font-Inter text-[1.125rem] tracking-[-0.01125rem] pl-[0.1rem]">
+            <Link href={option.link} className="text-white underline font-Inter text-[1.125rem] tracking-[-0.01125rem] pl-[0.1rem] " style={{ overflowWrap:"anywhere"}}>
             {" "} {option.value}
             </Link>
             :
