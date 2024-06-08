@@ -1,12 +1,14 @@
 import React from "react";
 import SecondaryBtn from "../ui/secondaryBtn";
 import Image from "next/image";
+import Link from "next/link";
 
 function TokenSection() {
   const options = [
     {
       option: "Address",
-      value: "TBA",
+      value: "RaiuuHKrphE2jENyANz37mcTquwmwBqdnAiR881aEBZ",
+      link:"https://solscan.io/token/RaiuuHKrphE2jENyANz37mcTquwmwBqdnAiR881aEBZ#analysis",
     },
     {
       option: "Network",
@@ -18,7 +20,7 @@ function TokenSection() {
     },
     {
       option: "Total/Max Supply",
-      value: "50,000,000",
+      value: "50M",
     },
   ];
   return (
@@ -41,9 +43,17 @@ function TokenSection() {
             <p className="text-primary font-Inter text-[1.125rem] tracking-[-0.01125rem]">
              {option.option}:
             </p>
+           {
+            option.link
+            ?
+            <Link href={option.link} className="text-white underline font-Inter text-[1.125rem] tracking-[-0.01125rem] pl-[0.1rem]">
+            {" "} {option.value}
+            </Link>
+            :
             <p className="text-white font-Inter text-[1.125rem] tracking-[-0.01125rem] pl-[0.1rem]">
             {" "} {option.value}
             </p>
+           }
           </div>
         ))}
       </div>
@@ -56,7 +66,7 @@ function TokenSection() {
           <div className="flex flex-col gap-[1.5rem]">
             <div className="flex justify-between items-center">
               <p className="text-[#8149FE] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
-              30%  Initial Liquidity
+              30%  RWA & Blockchain Incubation
               </p>
               <p className="text-[#85B86F] font-Inter text-[1.125rem] tracing-[-0.01125rem] text-right ">
               25% Platform Development
