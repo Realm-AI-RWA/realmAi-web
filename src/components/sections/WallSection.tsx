@@ -29,6 +29,7 @@ function WallSection() {
         </div>
       </div>
     </div>
+    
   );
 }
 

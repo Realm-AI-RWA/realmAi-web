@@ -66,7 +66,7 @@ function TokenSection() {
           <div className="flex flex-col gap-[1.5rem]">
             <div className="flex justify-between items-center">
               <p className="text-[#8149FE] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
-              30%  RWA & Blockchain Incubation
+              30% Initial liquidity
               </p>
               <p className="text-[#85B86F] font-Inter text-[1.125rem] tracing-[-0.01125rem] text-right ">
               25% Platform Development
@@ -84,7 +84,7 @@ function TokenSection() {
 
             <div className="flex justify-between items-center">
               <p className="text-[#2EC1EB] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
-              6% Team Incentive
+              6% RWA & Blockchain Incubation  
               </p>
               <p className="text-[#21BBBB] font-Inter text-[1.125rem] tracing-[-0.01125rem] text-right ">
               20% Realm Reserve

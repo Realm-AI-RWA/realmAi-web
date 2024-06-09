@@ -94,6 +94,7 @@ function TechnologySection() {
         )}
       </div>
     </div>
+    
   );
 }
 

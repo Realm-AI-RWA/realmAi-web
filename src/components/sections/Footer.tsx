@@ -49,6 +49,7 @@ function Footer() {
           </Link>
         </div>
       </div>
+      
     </div>
   );
 }

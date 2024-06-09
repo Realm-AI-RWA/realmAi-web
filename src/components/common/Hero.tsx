@@ -75,6 +75,7 @@ function Hero() {
         />
       </div>
     </div>
+    
   );
 }
 
