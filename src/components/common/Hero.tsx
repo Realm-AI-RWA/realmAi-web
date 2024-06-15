@@ -9,26 +9,27 @@ function Hero() {
   const timerRef = useRef<NodeJS.Timeout>(null!);
   const [messageText, setMessageText] = useState("");
 
-
   function countDown() {
-    let targetDate = new Date('2024-06-16T00:00:00.000Z');
-     timerRef.current = setInterval(() => {
+    let targetDate = new Date("2024-06-16T00:00:00.000Z");
+    timerRef.current = setInterval(() => {
       let difference = targetDate.getTime() - new Date().getTime();
       if (difference <= 0) {
         clearInterval(timerRef.current);
         setMessageText("Learn more");
       } else {
         let days = Math.floor(difference / (24 * 60 * 60 * 1000));
-        let hours = Math.floor((difference % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000));
+        let hours = Math.floor(
+          (difference % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000)
+        );
         let minutes = Math.floor((difference % (60 * 60 * 1000)) / (60 * 1000));
-        let seconds = Math.floor((difference % 60 * 1000) / 1000);
+        let seconds = Math.floor(((difference % 60) * 1000) / 1000);
         setMessageText(`${days} days, ${hours} hours, ${minutes} minutes`);
       }
     }, 1000);
   }
 
   useEffect(() => {
-    countDown()
+    countDown();
 
     return () => clearInterval(timerRef.current);
   }, []);
@@ -49,8 +50,12 @@ function Hero() {
         </p>
         <div className="w-full md:w-[20rem]">
           <Button
-            onClick={() => router.push("/#technology")}
-            title={messageText}
+            onClick={() =>
+              router.push(
+                "https://birdeye.so/token/RaiuuHKrphE2jENyANz37mcTquwmwBqdnAiR881aEBZ?chain=solana'"
+              )
+            }
+            title={"Buy on DEX"}
           />
         </div>
       </div>
@@ -75,7 +80,6 @@ function Hero() {
         />
       </div>
     </div>
-    
   );
 }
 
