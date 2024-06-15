@@ -1,38 +1,8 @@
 "use client";
 import Image from "next/image";
-import Button from "../ui/button";
-import { useRouter } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 
 function Hero() {
-  const router = useRouter();
-  const timerRef = useRef<NodeJS.Timeout>(null!);
-  const [messageText, setMessageText] = useState("");
-
-  function countDown() {
-    let targetDate = new Date("2024-06-16T00:00:00.000Z");
-    timerRef.current = setInterval(() => {
-      let difference = targetDate.getTime() - new Date().getTime();
-      if (difference <= 0) {
-        clearInterval(timerRef.current);
-        setMessageText("Learn more");
-      } else {
-        let days = Math.floor(difference / (24 * 60 * 60 * 1000));
-        let hours = Math.floor(
-          (difference % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000)
-        );
-        let minutes = Math.floor((difference % (60 * 60 * 1000)) / (60 * 1000));
-        let seconds = Math.floor(((difference % 60) * 1000) / 1000);
-        setMessageText(`${days} days, ${hours} hours, ${minutes} minutes`);
-      }
-    }, 1000);
-  }
-
-  useEffect(() => {
-    countDown();
-
-    return () => clearInterval(timerRef.current);
-  }, []);
 
   return (
     <div className="bg-black_hero_bg pl-[1rem] md:pl-[13rem] pb-[3rem] flex  items-center flex-col md:flex-row">
@@ -49,14 +19,14 @@ function Hero() {
           and investment accessibility.
         </p>
         <div className="w-full md:w-[20rem]">
-          <Button
-            onClick={() =>
-              router.push(
-                "https://birdeye.so/token/RaiuuHKrphE2jENyANz37mcTquwmwBqdnAiR881aEBZ?chain=solana'"
-              )
-            }
-            title={"Buy on DEX"}
-          />
+          <Link
+          target="__blank"
+            href="https://birdeye.so/token/RaiuuHKrphE2jENyANz37mcTquwmwBqdnAiR881aEBZ?chain=solana"
+            className="bg-primary w-full 
+            flex justify-center items-center py-[0.5rem] px-[1.5rem] rounded-full font-Bricolage text-[1.125rem] text-[#0E1117] font-bold"
+          >
+            Buy on DEX
+          </Link>
         </div>
       </div>
 
