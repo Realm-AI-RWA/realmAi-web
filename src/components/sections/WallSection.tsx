@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Button from "../ui/button";
+import Link from "next/link";
 
 function WallSection() {
   return (
@@ -13,9 +14,9 @@ function WallSection() {
           <p className="text-white font-Inter text-base w-2/3">
             Learn more about RealmAI project plans, team, market and fit.
           </p>
-          <div className="w-[15rem]">
-            <Button title="Coming soon" />
-          </div>
+          <Link href="https://bafybeiell5yl6b7lztq4n2sc6abilvtxcsdtleqftq6nkvvcpcotmpgqyq.ipfs.w3s.link/Realm%20Ai%20Whitepaper%20(2).pdf" target="__blank" className="w-[15rem]">
+            <Button title="View Whitepaper" />
+          </Link>
         </div>
 
         <div className="w-full flex justify-center items-center">

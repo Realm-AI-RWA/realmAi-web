@@ -21,6 +21,14 @@ function Navbar() {
       image: "telegram.png",
       link: "https://t.me/realmaiann",
     },
+    {
+      image: "medium.png",
+      link: "https://medium.com/@realmchain",
+    },
+    {
+      image: "linktree.png",
+      link: "https://linktr.ee/realmchain",
+    },
   ];
   return (
     <>
@@ -45,8 +53,8 @@ function Navbar() {
                 src={`/images/socials/${social.image}`}
                 alt="social"
                 title="social"
-                width={20}
-                height={20}
+                width={social.image === "linktree.png"?30:20}
+                height={social.image === "linktree.png"?30:20}
 
               />
             </Link>
