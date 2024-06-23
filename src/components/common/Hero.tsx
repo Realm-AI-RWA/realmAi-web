@@ -31,8 +31,7 @@ function Hero() {
 
         <div className="w-full md:w-[20rem]">
           <Link
-          target="__blank"
-            href="https://birdeye.so/token/RaiuuHKrphE2jENyANz37mcTquwmwBqdnAiR881aEBZ?chain=solana"
+            href="#"
             className="border-primary border-[2px] bg-white w-full 
             flex justify-center items-center py-[0.5rem] px-[1.5rem] rounded-full font-Bricolage text-[1.125rem] text-[#0E1117] font-bold hover:scale-105 transition-all"
           >
