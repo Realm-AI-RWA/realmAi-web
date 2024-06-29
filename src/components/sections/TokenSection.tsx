@@ -16,7 +16,7 @@ function TokenSection() {
     },
     {
       option: "Holders",
-      value: "N/A",
+      value: "207++",
     },
     {
       option: "Total/Max Supply",
@@ -50,8 +50,10 @@ function TokenSection() {
             {" "} {option.value}
             </Link>
             :
-            <p className="text-white font-Inter text-[1.125rem] tracking-[-0.01125rem] pl-[0.1rem]">
-            {" "} {option.value}
+            <p className={`text-white font-Inter text-[1.125rem] tracking-[-0.01125rem] pl-[0.1rem] }`} >
+            {" "} 
+            <span className={`${option.value === "50M" && 'line-through'}`}>{option.value}</span>
+            { option.value === "50M" && <span> 45.5M</span>}
             </p>
            }
           </div>
@@ -74,10 +76,10 @@ function TokenSection() {
             </div>
 
             <div className="flex justify-between items-center">
-              <p className="text-[#C3832B] font-Inter text-[1.125rem] tracing-[-0.01125rem] w-full md:w-3/5">
+              <p className="text-[#C3832B] font-Inter text-[1.125rem] tracing-[-0.01125rem] line-through w-full md:w-3/5">
               9% Marketing & Promotions
               </p>
-              <p className="text-[#C3B663] font-Inter text-[1.125rem] tracing-[-0.01125rem] ">
+              <p className="text-[#C3B663] font-Inter text-[1.125rem] tracing-[-0.01125rem]  ">
               10% CEX Listing
               </p>
             </div>
