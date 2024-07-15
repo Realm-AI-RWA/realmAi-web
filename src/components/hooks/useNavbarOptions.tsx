@@ -21,9 +21,10 @@ const useNavbarOptions = ()=>{
           title: "ROADMAP",
           link: "/#roadmap",
         },
+        
         {
-          title: "CONTACT US",
-          link: "/#contact",
+          title: "ASSET PORTAL",
+          link: "/#portal",
         },
       ];
 }
